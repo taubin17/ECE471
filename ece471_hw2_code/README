@@ -1,0 +1,16 @@
+ECE471 Fall 2020, HW#2
+
+Name: Tyler Aubin
+
+Describe your "Something Cool":
+	Program outputs a double helix of 'Hello (name)' for however many letters are in your name
+
+Answers to homework questions in Part7:
+
+a. man ls, ls --help
+
+b. Does not ignore entries starting with . (Shows hidden files and directories as well) 
+
+c. C is used in embedded systems for the package has a smaller footprint than that of an interpretive language, and can address hardware directly
+
+d. Network (SSH), and for copying files using 'scp'

@@ -1,0 +1,16 @@
+ECE471 Fall 2020 -- HW8
+
+Name:
+
+
+3. Describe your something cool:
+	My something cool is a bash script that automagically finds the 1 wire temperature probe, and then begins polling the temperature after finding said device
+
+4. a. This ensures that power is constantly supplied to the device, and remove the potential massive current draw that may occur in parasitic mode
+   b. 1 Wire can travel the longest permitted the correct cables are chosen.
+
+
+5. a.
+
+
+

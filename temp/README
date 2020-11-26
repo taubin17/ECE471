@@ -1,0 +1,40 @@
+ECE471 Fall 2020 -- Homework #3
+
+Name: Tyler Aubin
+
+
+3c: size of ARM32 function:
+	Hex: 6C, Decimal: 108
+
+3d: size of THUMB2 function:
+	Hex: 52, Decimal: 82
+
+3e:
+	Machine code looks much different, the standard version (The non Thumb2 version) shows almost every instruction beginning with an e followed by many hex characters, the Thumb2 version shows rather short and concise hexadecimal instructions with varying characters	
+
+4a:
+	The ARM32 executable was 5544 bytes whereas the Thumb2 executable was 5548 bytes. The sizes are nearly identical and appear to be only an instruction in difference.
+
+4b:
+	The integer_print.asm file is only 1308 bytes in size, almost 10x than either the Thumb2 or ARM32 files were before being stripped.	
+
+4c:
+	Assembly language in a constrained system, for other languages are merely broken up into assembly language during compile. This compilation can create unneccessary instructions to, which can bloat a program, as evidenced by the difference in integer_print and integer_print.asm.
+
+4d:
+
+	C code is much easier to read and understand however Assembly has even more direct hardware software interconnection, and thus is more powerful when in the right hands (can be even more devestating in the wrong hands!).
+
+
+
+5f: ch=array[i]
+
+5h: 0x0001042C <+36> ldrb r3, [r3]  
+
+5i: The program attempts to access memory (copy) that it has not yet gained permission of. This is due to array[i] not being fully set before copied in the program
+
+
+6: Program takes in a user integer and returns the conversion in hexadecimal 
+
+
+7a: This issue with September of 1752 is due to the Gregorian Reformation, in which, Britain allowed 10 days for the new reform to be established, hence why 10 days are missing after September 3rd, the date the Gregorian Reformation was believed to have occurred.

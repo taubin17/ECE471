@@ -1,0 +1,21 @@
+ECE471 Fall 2020 -- HW7
+
+Name:
+
+4. Describe your something cool:
+	Alerts the user if the temperature is freezing cold, or quite literally boiling hot.
+
+
+5. a. Hard real-time, the brakes are critical to safety, and if they do not stop in that time there may be total failure of system.
+   b. This is a soft real-time task, results are still useful, just annoys the user to wait slightly longer
+   c. This is a firm real-time task. IF a frame is not ready when needed, it is of no use, the very definition of a firm task.
+   d. SPI uses more pins, and also has a shorter distance for wires.
+   e. Power consumption; SPI is more energy efficient
+   f. This would not work for SPI is not effective past about 10 feet or so, due to the capacitance of the wires increasing with length.
+   g. Userspace can not assure real time, so it just may ruin that bitbanging enjoyment.
+
+6. a. Treat it like a fireplace, anything that goes in is "incinerated" and removed 
+   b. One could say it is the arch nemesis of null, for everything is full, and reports a write error 
+   c. Perhaps removing personal data, like a paper shredder of sorts for files
+   d. Possibly some random
+

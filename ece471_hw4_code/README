@@ -1,0 +1,25 @@
+ECE 471 Fall 2020 -- Homework 4
+
+Name:
+
+
+Briefly describe what you did for something cool (if applicable):
+	Something cool is inside of read_switch.c, and toggles the LED based on the state of the switch. Switch is debounced using sampling rather than sleeping.
+
+Answers to Question #5:
+
+a. While a busy loop taxes the CPU, the usleep() function puts minimal strain on the processor and allows for other taks to be completed
+
+b. The operating system handles talking directly to the hardware; userspace code communicates with a part of the operating system known as the Kernel, which is similar to an interpreter in an interpretive programming language (to an extent). The Kernel has modules/drivers that interpret code, and in turn perform the actions requested by the userspace code. 
+
+c. The debouncing of the switch was done using sampling. I thought about using sleep and "polling" values, but I felt as though using sampling is slightly faster and leaves room for other instructions and functions to be implemented.
+
+Answers to Question #6:
+
+a. Machine type: Machine Model: Raspberry Pi 4 Model B Rev 1.1
+
+b. Kernel version: 5.4.5l-v7l+
+
+c. Free Disk space: 14GB
+
+d. Prints the results of df in human-readable format, found using df --help

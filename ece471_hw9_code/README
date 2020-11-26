@@ -1,0 +1,31 @@
+ECE471 Fall 2020 -- HW9
+
+Name: Tyler Aubin
+
+
+4: Test values
+
+	1:) 99.99 (This should not be caught using word for word cases given in the homework. This will help find potential errors)
+	2:) -105 (This value is to ensure that the integer conversion of the number does not effect the sign of a number [My algorithm flips the sign of the number to find each digit])
+	3:) 50.2 (Test case 1)
+	4:) 205 (Test case 2)
+	5:) -44.3 (Test case 3)
+	6:) 999.1 (Test out of range case)
+	
+7: Questions
+	
+	A:) Between 1985 and 1987, at least 5 patients were recorded losing their lives to the Therac-25 Radiation therapy system. The software was responsible for administering more than 100x the supposed dose entered by medical professionals. One of the software faults (2 total), the operator would quickly select X-ray mode, then changed to electron mode. Due to a real time constraint error, the safety checking code for electron mode was not reached, and thus Electron mode was enabled without prompting the user to insert the proper filter. This lead to potentially 2.5 magnitudes higher radiation than what was prescribed, doing massive damage if not killing the individual being treated.
+
+	B:) Think about when you use code from someones GitHub. You generally don't test it thoroughly, and the individual who wrote it may have never intended it to be used in a life or death scenario. A perplexed example being you design software for controlling the brakes of an RC car based on traction feedback from sensors. The code works, but you did not test it very thorougly or document what specific cases the code does not check for. You make this code public. Someone at Tesla, who gives no effort in their job and hates their life, steals your RC code to implement it in the new Tesla Model XYZ. The next thing you know, Tesla model XYZ's are recalled or mobilely updated after 10 or so people die within a month. An investigation is performed, the brake code is found, and you're questioned on the code you wrote for an RC car killing 10 people. This type of perplexed scenario happens from time to time, and it can be avoided through good documentation, and always striving for correct well tested code.
+
+8: Linux Fun
+
+	A:) touch --date"2025-12-25 0:00" fakedate (Its christmas yo)
+	
+	B:) The year 2044 exceeds the maximum range for the date object in time
+
+	C:) As evidenced, the file stamp could be set to 2043, or to 1987, but the actual file creation date is not definite. In other words, there is no proof the file was actually created on the time stamp.
+
+
+	
+

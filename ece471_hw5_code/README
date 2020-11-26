@@ -1,0 +1,19 @@
+ECE471 HW5 -- Fall 2020
+
+Name: Tyler Aubin
+
+
+7.	Describe what your "something cool" code does
+	Something cool scrolls message of any number of characters across the LCD. For my message, I chose "ECE 471 is a cool class"
+8.
+ a). According to raspberrypi.org, the BCM2711 (Cortex Processor) SoC is the very first thing to be booted. This chip is host to many things, such as the Cortex Processor, caches, memory, I/O, and many other components of the RPI. This chip can be thought of as the "Parent" of the RPI.
+ b). So that information on the SD card may be read using Windows, Mac, and Linux (It's a universal filesystem, this can be very helpful when debugging changes to boot and config files that bricked the RPI)
+ c). The program used to be init, a file that simply started all processes included in the file. Now, a program called "systemd" is used, and it is highly controversial.
+ d). These addresses are reserved on behalf of the SMBus configuration. This was found by using man i2cdetect, and seeing that i2cdetect relies on SMbus to maintain optimal security during connections (They claim it is the safest way to manage I2C). When looking into SMbus, the documentation claims they reserve 11 addresses (2 at the front end, 1 random, and 8 at the end). The random address is then assigned to address 3 for it was deemed the "most logical" in terms of placement.
+
+9.
+ a). 231
+ b). 190
+
+
+
